@@ -24,9 +24,10 @@ const style = {
     margin: "0 auto",
   },
   subtitle: {
-    fontFamily: "Nike Futura",
+    fontFamily: "Arial",
     textAlign: "center",
-    marginTop: "2rem"
+    marginTop: "2rem",
+    text: "justify"
   }
 };
 

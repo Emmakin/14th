@@ -22,8 +22,9 @@ code {
 }
 
 .subtitle {
-  font-family: "Nike Futura";
+  font-family: "Arial";
   text-align: center;
   margin-top: 20rem;
+  text: justify;
 
 }
