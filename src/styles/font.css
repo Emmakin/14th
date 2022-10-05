@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../assets/fonts/helvetica-neue/HelveticaNeue-Regular.otf")
+    format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../assets/fonts/helvetica-neue/HelveticaNeue-Regular.otf")
+    format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../assets/fonts/helvetica-neue/HelveticaNeue-Medium.otf")
+    format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../assets/fonts/helvetica-neue/HelveticaNeue-Bold.otf")
+    format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Nike Futura";
+  src: url("https://www.nike.com/static/ncss/4.1/dotcom/fonts/Nike-Futura.woff2")
+    format("woff2");
+}
