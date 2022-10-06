@@ -1,4 +1,5 @@
-import Button from './button.js';
+import React from "react";
+import Button from "../button";
 
 function Home() {
   return (
