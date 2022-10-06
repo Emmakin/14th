@@ -14,6 +14,7 @@ function Home() {
       </div>
       <div style={style.BtnDiv}>
         <Button />
+        <Button>Shoe</Button>
         
       </div>
     </div>
@@ -38,15 +39,9 @@ const style = {
     BtnDiv: {
       flex: "display",
       alignItems: "center",
-      justifyContent: "center"
-      
+      justifyContent: "center"   
   },
-    Btn: {
-      backGround: "black",
-      borderRadius: "2rem",
-      padding: "6px 6px 0px 0px",
-      
-    }
+    
 
 
 };
