@@ -10,7 +10,7 @@ function Home() {
         knee fleece. Drapes, feel and wears like nothing you have experience before.
       </div>
       <div>
-   
+      <button type="button" className="Btn">Shop All Fleece</button>
       </div>
 
     </div>
