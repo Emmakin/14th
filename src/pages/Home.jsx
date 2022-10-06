@@ -1,3 +1,5 @@
+import Button from './button.js';
+
 function Home() {
   return (
     <div>
@@ -10,8 +12,8 @@ function Home() {
         knee fleece. Drapes, feel and wears like nothing you have experience before.
       </div>
       <div style={style.BtnDiv}>
-        <button style={style.Btn} >Shop All Fleece</button>
-        <button style={style.Btn} >Explore Nike Fleece</button>
+        <Button />
+        
       </div>
     </div>
   );
