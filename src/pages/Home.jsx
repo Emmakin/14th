@@ -9,6 +9,9 @@ function Home() {
         Made with an average 75% less carbon when compare to our traditional <br />
         knee fleece. Drapes, feel and wears like nothing you have experience before.
       </div>
+      <div>
+        <button type="button" className="btn"></button>
+      </div>
 
     </div>
   );
