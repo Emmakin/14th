@@ -28,3 +28,9 @@ code {
   text: justify;
 
 }
+
+.btn {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
