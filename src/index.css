@@ -25,11 +25,10 @@ code {
   font-family: "Arial";
   text-align: center;
   margin-top: 20rem;
-  text: justify;
 
 }
 
-.btn {
+.button {
   background-color: black;
   align-items: center;
   justify-content: center;

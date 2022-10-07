@@ -11,11 +11,13 @@ const style = {
     Btn: {
         backgroundColor: "black",
         borderRadius: "30px",
-        padding: "6px 20px",
+        padding: "6px 30px",
         color: "white",
         margin: "6px 6px 0px 0px",
-        font: "16px",
-        fontFamily: "Helvetica Neue"
+        font: "30px",
+        fontFamily: "Arial",
+        width:"200px",
+        height: "40px"
       }
 }
 

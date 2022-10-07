@@ -2,6 +2,8 @@ import React from "react";
 import Button from "../button";
 import Imagediv from "../imagediv";
 
+
+
 function Home() {
   return (
     <div>
@@ -26,7 +28,9 @@ function Home() {
       </h2>
       <div>
         <Imagediv 
+          src = "pic1"
           text = "Set Up Workout"
+          button = "Shop"
         />
       </div>
     </div>
