@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../button";
+import Imagediv from "../imagediv";
 
 function Home() {
   return (
@@ -12,7 +13,7 @@ function Home() {
         Made with an average 75% less carbon when compare to our traditional <br />
         knee fleece. Drapes, feel and wears like nothing you have experience before.
       </div>
-      <div style={style.BtnDiv}>
+      <div style={style.btnDiv}>
         <Button 
           name = "Shop All Fleece"
         />
@@ -23,6 +24,9 @@ function Home() {
       <h2 style={style.title2}>
         For Your Workout
       </h2>
+      <div>
+        <Imagediv />
+      </div>
     </div>
   );
 }
@@ -49,10 +53,10 @@ const style = {
       justifyContent: "center"   
   },
     title2: {
-      fontFamily: "ArialNarrow",
+      fontFamily: "Arial",
       fontSize: "24px",
       textAlign: "left",
-      margin: "0 auto",
+      margin: "6px auto",
 
     }
 
