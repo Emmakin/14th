@@ -19,8 +19,10 @@ function Home() {
         <Button
         name = "Explore Nike Fleece"
         />
-        
       </div>
+      <h2 style={style.title2}>
+        For Your Workout
+      </h2>
     </div>
   );
 }
@@ -40,12 +42,21 @@ const style = {
     marginTop: "2rem",
     text: "justify"
   },
-    BtnDiv: {
+    btnDiv: {
       flex: "display",
       flexDirection: "row",
       alignItems: "center",
       justifyContent: "center"   
   },
+    title2: {
+      fontFamily: "ArialNarrow",
+      fontSize: "24px",
+      textAlign: "left",
+      margin: "0 auto",
+
+    }
+
+
     
 
 

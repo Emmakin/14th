@@ -10,7 +10,7 @@ function Button({name}) {
 const style = {
     Btn: {
         backgroundColor: "black",
-        borderRadius: "2rem",
+        borderRadius: "30px",
         padding: "6px 20px",
         color: "white",
         margin: "6px 6px 0px 0px",
