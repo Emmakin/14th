@@ -16,6 +16,9 @@ function Home() {
         <Button 
           name = "Shop All Fleece"
         />
+        <Button
+        name = "Explore Nike Fleece"
+        />
         
       </div>
     </div>
@@ -39,6 +42,7 @@ const style = {
   },
     BtnDiv: {
       flex: "display",
+      flexDirection: "row",
       alignItems: "center",
       justifyContent: "center"   
   },
