@@ -25,7 +25,9 @@ function Home() {
         For Your Workout
       </h2>
       <div>
-        <Imagediv />
+        <Imagediv 
+          text = "Set Up Workout"
+        />
       </div>
     </div>
   );
