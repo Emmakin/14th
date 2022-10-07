@@ -9,10 +9,13 @@ function Button() {
   }
 const style = {
     Btn: {
-        backGround: "black",
+        backgroundColor: "black",
         borderRadius: "2rem",
-        padding: "6px 6px 0px 0px",
-        
+        padding: "6px 20px",
+        color: "white",
+        margin: "6px 6px 0px 0px",
+        font: "16px",
+        fontFamily: "Helvetica Neue"
       }
 }
 

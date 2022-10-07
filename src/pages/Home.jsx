@@ -14,7 +14,7 @@ function Home() {
       </div>
       <div style={style.BtnDiv}>
         <Button />
-        <Button>Shoe</Button>
+        <Button />
         
       </div>
     </div>
