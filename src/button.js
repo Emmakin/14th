@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Button() {
+function Button({name}) {
     return (
       <div>
-        <button style={style.Btn}>Shop All Fleece</button>
+        <button style={style.Btn}>{name}</button>
       </div>
     );
   }
