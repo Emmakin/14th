@@ -17,7 +17,7 @@ const style = {
         borderRadius: "2rem",
         backgroundColour: "white",
         colour: "red",
-        boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.3)",
+        boxShadow: "2px 4px 8px 0 rgba(0, 0, 0, 0.3)",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
