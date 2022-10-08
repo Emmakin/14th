@@ -7,6 +7,8 @@ import Subtitlebar from "../components/subtitlebars";
 
 
 // planning to make a neat code and create css module for all the code
+ // create new folder for each components that will create each files
+ 
 function Home() {
   return (
     <div>
