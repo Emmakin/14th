@@ -12,11 +12,12 @@ function Logo() {
 
 const style = {
     box: {
-        width: "50px",
-        height: "50px",
+        width: "100px",
+        height: "100px",
         borderRadius: "2rem",
         backgroundColour: "white",
-        colour: "red"
+        colour: "red",
+        boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)"
     }
     
 }

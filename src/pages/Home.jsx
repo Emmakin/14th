@@ -90,7 +90,7 @@ const style = {
       flex: "grow"
     },
     logo: {
-      
+    
     }
 
 
