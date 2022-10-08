@@ -1,6 +1,8 @@
 import React from "react";
-import Button from "../button";
-import Imagediv from "../imagediv";
+import Button from "../components/button";
+import Imagediv from "../components/imagediv";
+import Logo from "../components/logo";
+
 
 
 
@@ -15,7 +17,7 @@ function Home() {
         Made with an average 75% less carbon when compare to our traditional <br />
         knee fleece. Drapes, feel and wears like nothing you have experience before.
       </div>
-      <div style={style.btnDiv}>
+      <div style={style.btn}>
         <Button 
           name = "Shop All Fleece"
         />
@@ -26,12 +28,20 @@ function Home() {
       <h2 style={style.title2}>
         For Your Workout
       </h2>
-      <div>
+      <div style={style.images}>
         <Imagediv 
-          src = "pic1"
+        
           text = "Set Up Workout"
           button = "Shop"
         />
+        <Imagediv 
+          
+          text = "The Right Gear to Start Running"
+          button = "Shop"
+        />
+      </div>
+      <div style={style.logo}>
+        <Logo />
       </div>
     </div>
   );
@@ -52,19 +62,37 @@ const style = {
     marginTop: "2rem",
     text: "justify"
   },
-    btnDiv: {
-      flex: "display",
+    btn: {
+      
+      marginTop: "2rem",
+      display: "flex",
       flexDirection: "row",
+      justifyContent: "center",   
       alignItems: "center",
-      justifyContent: "center"   
+      
   },
     title2: {
       fontFamily: "Arial",
       fontSize: "24px",
+      textHeight: "30px",
+      fontWeight: "100",
       textAlign: "left",
-      margin: "6px auto",
+      margin: "8px auto",
 
+    },
+    images: {
+      marginTop: "2rem",
+      display: "flex",
+      flexDirection: "row",
+      justifyItems: "center",
+      alignItems: "center",
+      gap: "15%",
+      flex: "grow"
+    },
+    logo: {
+      
     }
+
 
 
     

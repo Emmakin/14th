@@ -33,3 +33,10 @@ code {
   align-items: center;
   justify-content: center;
 }
+
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
