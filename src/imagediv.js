@@ -10,15 +10,7 @@ function Imagediv({text, button}) {
     </div>
  )
 }
-function Imagediv2({text, button}) {
-  return (
-    <div style={style.mainPic}>
-        <img src={pic1} alt="nike pictures" ></img>
-        <div style={style.text}>{text}</div>
-        <button style={style.btn}>{button}</button>
-    </div>
- )
-}
+
 
 const style = {
     mainPic: {

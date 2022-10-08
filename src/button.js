@@ -17,7 +17,8 @@ const style = {
         font: "30px",
         fontFamily: "Arial",
         width:"200px",
-        height: "40px"
+        height: "40px",
+        alignItems: "center"
       }
 }
 
