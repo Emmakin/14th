@@ -3,9 +3,9 @@ import React from 'react'
 
 function Logo() {
     return (
-        <div>
+        <div style={style.box}>
             {/* <img src={Vector1} alt="nike pictures" width="25px" height="25px"></img> */}
-            <div style={style.box}>SNEAKERS</div>
+            <div>SNEAKERS</div>
         </div>
     )
 }
@@ -17,7 +17,11 @@ const style = {
         borderRadius: "2rem",
         backgroundColour: "white",
         colour: "red",
-        boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)"
+        boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.3)",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: "64px"
     }
     
 }
