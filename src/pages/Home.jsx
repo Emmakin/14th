@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../components/button";
-import Imagediv from "../components/imagediv";
+import Imagediv from "../components/bigCard";
 import Logo from "../components/logo";
 import Subtitlebar from "../components/subtitlebars";
 
