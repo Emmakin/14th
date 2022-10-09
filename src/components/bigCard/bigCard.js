@@ -1,6 +1,7 @@
 import React from 'react'
 import pic1 from "../../nike asset/nike-just-do-it3.jpg"
 
+
 function Imagediv({text, button}) {
   return (
     <div style={style.mainPic}>
