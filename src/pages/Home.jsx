@@ -1,4 +1,5 @@
 import React from "react";
+import Styles from "../pages/home.modules.css"
 import Button from "../components/nikeButton/button";
 import Imagediv from "../components/bigCard/bigCard";
 import Logo from "../components/logo";
@@ -53,51 +54,6 @@ function Home() {
   );
 }
 
-const style = {
-  title: {
-    fontFamily: "Nike Futura",
-    textTransform: "uppercase",
-    fontSize: "72px",
-    lineHeight: "60px",
-    textAlign: "center",
-    margin: "0 auto",
-  },
-    subtitle: {
-    fontFamily: "Arial",
-    textAlign: "center",
-    marginTop: "2rem",
-    text: "justify"
-  },
-    btn: {
-      
-      marginTop: "2rem",
-      display: "flex",
-      flexDirection: "row",
-      justifyContent: "center",   
-      alignItems: "center",
-      
-  },
-    title2: {
-      fontFamily: "Arial",
-      fontSize: "24px",
-      textHeight: "30px",
-      fontWeight: "100",
-      textAlign: "left",
-      margin: "8px auto",
-
-    },
-    images: {
-      marginTop: "2rem",
-      display: "flex",
-      flexDirection: "row",
-      justifyItems: "center",
-      alignItems: "center",
-      gap: "15%",
-      flex: "grow"
-    },
-    logo: {
-    
-    }
 
 
 
