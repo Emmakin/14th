@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../components/button";
+import Button from "../components/nikeButton/button";
 import Imagediv from "../components/bigCard/bigCard";
 import Logo from "../components/logo";
 import Subtitlebar from "../components/subtitlebars";
