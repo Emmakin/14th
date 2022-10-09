@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "../pages/home.modules.css"
+import styles from "../pages/Home.modules.css"
 import Button from "../components/nikeButton/button";
 import Imagediv from "../components/bigCard/bigCard";
 import Logo from "../components/logo";

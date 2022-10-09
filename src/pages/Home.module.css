@@ -1,11 +1,11 @@
 const style = {
     title: {
-      fontFamily: "Nike Futura",
-      textTransform: "uppercase",
-      fontSize: "72px",
-      lineHeight: "60px",
-      textAlign: "center",
-      margin: "0 auto",
+      fontFamily: Nike Futura;
+      textTransform: uppercase;
+      fontSize: 72px;
+      lineHeight: 60px;
+      textAlign: center;
+      margin: 0 auto;
     },
       subtitle: {
       fontFamily: "Arial",
