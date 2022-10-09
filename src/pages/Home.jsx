@@ -13,7 +13,7 @@ import Subtitlebar from "../components/subtitlebars";
 function Home() {
   return (
     <div>
-      <h1 style={style.title}>
+      <h1 >
         Introducing <br />
         Nike Forward
       </h1>
