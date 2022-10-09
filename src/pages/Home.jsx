@@ -1,27 +1,30 @@
 import React from "react";
-import styles from "../pages/Home.modules.css"
+import Styles from "../styles/home.module.css"
 import Button from "../components/nikeButton/button";
 import Imagediv from "../components/bigCard/bigCard";
 import Logo from "../components/logo";
 import Subtitlebar from "../components/subtitlebars";
 
 
+console.log(Styles);
 
-// planning to make a neat code and create css module for all the code
+
+
+// planning to make a neat code and create 1tcss module for all the code
  // create new folder for each components that will create each files
  
 function Home() {
   return (
     <div>
-      <h1 >
+      <h1 className={Styles.title}>
         Introducing <br />
         Nike Forward
       </h1>
-      <div style={style.subtitle}>
+      <div className={Styles.subtitle}>
         Made with an average 75% less carbon when compare to our traditional <br />
         knee fleece. Drapes, feel and wears like nothing you have experience before.
       </div>
-      <div style={style.btn}>
+      <div className={Styles.btn}>
         <Button 
           name = "Shop All Fleece"
         />
@@ -29,10 +32,10 @@ function Home() {
         name = "Explore Nike Fleece"
         />
       </div>
-      <h2 style={style.title2}>
+      <h2 className={Styles.title2}>
         For Your Workout
       </h2>
-      <div style={style.images}>
+      <div className={Styles.images}>
         <Imagediv 
         
           text = "Set Up Workout"
@@ -44,7 +47,7 @@ function Home() {
           button = "Shop"
         />
       </div>
-      <div style={style.logo}>
+      <div className={Styles.logo}>
         <Logo />
       </div>
       <div>
@@ -60,6 +63,5 @@ function Home() {
     
 
 
-};
 
 export default Home;
