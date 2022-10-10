@@ -1,0 +1,30 @@
+
+    .mainPic {
+        position: relative;
+    }
+
+    .text {
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+        font-size: 24px;
+        color: white;
+        text-align: center;
+        font-family: Helvetica Neue;
+        line-height: 20rem;
+        font-weight: 100px;
+    }
+    
+    .btn {
+        position: absolute;
+        background-color: white;
+        border-radius: 30px;
+        padding: 6px 40px;
+        color: black;
+        margin: 6px 6px 0px 0px;
+        left: 50px;
+        bottom: 75px;
+        border: none;
+        width: 100px;
+        height: 40px;
+    }
