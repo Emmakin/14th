@@ -6,6 +6,8 @@ import Pic1 from "../nike asset/nike-just-do-it2.jpg";
 import Pic2 from "../nike asset/nike-just-do-it3.jpg";
 import Logo from "../components/logo";
 import Subtitlebar from "../components/subtitlebars";
+import { SmallCard } from "../components/smallCard/smallCard";
+import Small1 from "../nike asset/air-jordan-1-low-mens-shoes-kT68wc.png"
 
 
 
@@ -57,6 +59,16 @@ function Home() {
       <div>
         <Subtitlebar />
       </div>
+      <section>
+        <SmallCard 
+          src = {Small1}
+          alt = "shoe"
+          brandName = "SNKRS Exclusive"
+          productName = "Air Jordan 3"
+          productType = "Mens Shoe"
+          productPrice = "$210"
+        />
+      </section>
     </div>
   );
 }
