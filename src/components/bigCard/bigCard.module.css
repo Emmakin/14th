@@ -6,7 +6,7 @@
     .text {
         position: absolute;
         left: 50px;
-        bottom: 50px;
+        bottom: 25px;
         font-size: 24px;
         color: white;
         text-align: center;
@@ -19,12 +19,13 @@
         position: absolute;
         background-color: white;
         border-radius: 30px;
-        padding: 6px 40px;
+        padding: 6px 2px;
         color: black;
         margin: 6px 6px 0px 0px;
+        text-align: center;
         left: 50px;
         bottom: 75px;
         border: none;
-        width: 100px;
+        width: 80px;
         height: 40px;
     }
