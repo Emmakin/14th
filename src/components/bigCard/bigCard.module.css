@@ -6,7 +6,7 @@
     .text {
         position: absolute;
         left: 50px;
-        bottom: 25px;
+        bottom: 10px;
         font-size: 24px;
         color: white;
         text-align: center;
@@ -24,7 +24,7 @@
         margin: 6px 6px 0px 0px;
         text-align: center;
         left: 50px;
-        bottom: 75px;
+        bottom: 50px;
         border: none;
         width: 80px;
         height: 40px;

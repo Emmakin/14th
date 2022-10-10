@@ -1,4 +1,6 @@
-
+.wrapper {
+      margin: 0 3rem;
+}
   
  .title {
       font-family: Nike Futura;
@@ -42,7 +44,7 @@
         flex-direction: row;
         justify-items: center;
         align-items: center;
-        gap: 15%;
+        gap: 1rem;
         flex: grow;
       }
       
