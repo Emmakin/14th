@@ -4,11 +4,10 @@
 .btn {
         background-color:  black;
         border-radius:  30px;
-        padding:  6px 30px;
+        padding:  0;
         color:  white;
-        margin:  6px 6px 0px 0px;
         font:  30px;
-        line-height: 80px;
+        line-height: 30px;
         font-weight: 100px;
         font-family:  Arial;
         width: 200px;

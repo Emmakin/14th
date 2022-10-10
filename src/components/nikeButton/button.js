@@ -4,7 +4,9 @@ import Style from './button.module.css';
 function Button({name}) {
     return (
       <div>
-        <button className = {Style.btn}>{name}</button>
+        <button className={Style.btn}>
+          {name}
+          </button>
       </div>
     );
   }
