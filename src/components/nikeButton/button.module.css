@@ -16,5 +16,6 @@
       }
 
  .btn:hover {
-    filter: brightness(0.5);
+    transition: 0.3ms;
+    opacity: 0.4;
   }
