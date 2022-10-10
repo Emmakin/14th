@@ -1,5 +1,5 @@
 import React from 'react';
-import pic1 from "../../nike asset/nike-just-do-it4.jpg";
+import pic1 from "../../nike asset/nike-just-do-it2.jpg";
 import Styles from "./bigCard.module.css";
 
 function Imagediv({text, button}) {
