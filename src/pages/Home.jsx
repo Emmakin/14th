@@ -6,7 +6,7 @@ import Logo from "../components/logo";
 import Subtitlebar from "../components/subtitlebars";
 
 
-console.log(Styles);
+
 
 
 
