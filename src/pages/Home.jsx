@@ -2,6 +2,8 @@ import React from "react";
 import Styles from "../styles/home.module.css"
 import Button from "../components/nikeButton/button";
 import Imagediv from "../components/bigCard/bigCard";
+import Pic1 from "../nike asset/nike-just-do-it.jpg";
+import Pic2 from "../nike asset/nike-just-do-it2.jpg";
 import Logo from "../components/logo";
 import Subtitlebar from "../components/subtitlebars";
 
@@ -37,12 +39,13 @@ function Home() {
       </h2>
       <div className={Styles.images}>
         <Imagediv 
-        
+          src={Pic1}
+          alt = "A basketball jersey"        
           text = "Set Up Workout"
           button = "Shop"
         />
         <Imagediv 
-          
+          src={Pic2}
           text = "The Right Gear to Start Running"
           button = "Shop"
         />
