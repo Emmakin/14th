@@ -14,7 +14,9 @@ import Small4 from "../nike asset/air-more-uptempo-big-kids-shoes-XXS2f0.png";
 import Small5 from "../nike asset/air-max-95-mens-shoes-4Nzc1w.png";
 import Small6 from "../nike asset/air-jordan-1-mid-shoes-PCCmCV.png";
 import { Section } from "../components/section/section";
-import Section1 from "../nike asset/section1.jpg"
+import Section1 from "../nike asset/section1.jpg";
+import Section2 from "../nike asset/section2.jpg";
+import Section3 from "../nike asset/section3.jpg";
 
 
 
@@ -119,10 +121,18 @@ function Home() {
       <h2 className={Styles.title2}>
         Essential Layers
       </h2>
-      <section>
+      <section className={Styles.section}>
         <Section 
           src={Section1}
-          name="I love javascript"
+          name="Pro Baselayers"
+        />
+        <Section 
+          src={Section2}
+          name="Leggings"
+        />
+        <Section 
+          src={Section3}
+          name="Sport Bras"
         />
       </section>
     </div>
