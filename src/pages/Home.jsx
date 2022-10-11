@@ -114,6 +114,12 @@ function Home() {
           productPrice = "$210"
         />
       </section>
+      <h2 className={Styles.title2}>
+        Essential Layers
+      </h2>
+      <section>
+        
+      </section>
     </div>
   );
 }
