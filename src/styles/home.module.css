@@ -48,5 +48,28 @@
         flex: grow;
       }
       
+
+      .smallCard  {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        overflow-x: scroll;
+        
+      }
+
+      .smallCard::-webkit-scrollbar{
+        
+      }
+
+      .smallCard::-webkit-scrollbar-thumb{
+        width: 5px;
+        height: 8px;
+        border-radius: 1rem;
+        background: rgb(131, 131, 131);
+      }
+
+      .smallCard::-webkit-scrollbar{
+        display: hidden;
+      }
      
   

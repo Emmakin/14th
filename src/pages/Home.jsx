@@ -8,6 +8,11 @@ import Logo from "../components/logo";
 import Subtitlebar from "../components/subtitlebars";
 import { SmallCard } from "../components/smallCard/smallCard";
 import Small1 from "../nike asset/air-jordan-1-low-mens-shoes-kT68wc.png"
+import Small2 from "../nike asset/dunk-low-womens-shoes-7K2zPb.png"
+import Small3 from "../nike asset/dunk-high-retro-mens-shoe-dTVTCk.png"
+import Small4 from "../nike asset/air-more-uptempo-big-kids-shoes-XXS2f0.png"
+import Small5 from "../nike asset/air-max-95-mens-shoes-4Nzc1w.png"
+import Small6 from "../nike asset/air-jordan-1-mid-shoes-PCCmCV.png"
 
 
 
@@ -59,9 +64,49 @@ function Home() {
       <div>
         <Subtitlebar />
       </div>
-      <section>
+      <section className={Styles.smallCard}>
         <SmallCard 
           src = {Small1}
+          alt = "shoe"
+          brandName = "SNKRS Exclusive"
+          productName = "Air Jordan 3"
+          productType = "Mens Shoe"
+          productPrice = "$210"
+        />
+         <SmallCard 
+          src = {Small2}
+          alt = "shoe"
+          brandName = "SNKRS Exclusive"
+          productName = "Air Jordan 3"
+          productType = "Mens Shoe"
+          productPrice = "$210"
+        />
+         <SmallCard 
+          src = {Small3}
+          alt = "shoe"
+          brandName = "SNKRS Exclusive"
+          productName = "Air Jordan 3"
+          productType = "Mens Shoe"
+          productPrice = "$210"
+        />
+         <SmallCard 
+          src = {Small4}
+          alt = "shoe"
+          brandName = "SNKRS Exclusive"
+          productName = "Air Jordan 3"
+          productType = "Mens Shoe"
+          productPrice = "$210"
+        />
+         <SmallCard 
+          src = {Small5}
+          alt = "shoe"
+          brandName = "SNKRS Exclusive"
+          productName = "Air Jordan 3"
+          productType = "Mens Shoe"
+          productPrice = "$210"
+        />
+         <SmallCard 
+          src = {Small6}
           alt = "shoe"
           brandName = "SNKRS Exclusive"
           productName = "Air Jordan 3"

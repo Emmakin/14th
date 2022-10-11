@@ -3,9 +3,34 @@
 .wrapper {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    font: inherit;
+    
 }
 
 .img {
     max-width: 547px;
     max-height: 547px;
+}
+
+.brandName {
+    font-size: 14px;
+    color:brown;
+
+}
+
+.productName {
+    color: black;
+    font-size: 14px;
+
+}
+
+.productType  {
+    color: grey;
+    font-size: 14px;
+}
+
+.productPrice  {
+    color: grey;
+    font-size: 14px;
 }
