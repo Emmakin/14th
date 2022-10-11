@@ -71,7 +71,7 @@
       .section {
         display: flex;
         flex-direction: row;
-        row-gap: 7rem;
+        gap: 5rem;
       }
 
       
