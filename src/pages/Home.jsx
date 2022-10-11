@@ -1,6 +1,6 @@
 import React from "react";
 import Styles from "../styles/home.module.css"
-import Button from "../components/nikeButton/button";
+import Blkbutton from "../components/nikeButton/blackbutton";
 import Imagediv from "../components/bigCard/bigCard";
 import Pic1 from "../nike asset/nike-just-do-it2.jpg";
 import Pic2 from "../nike asset/nike-just-do-it3.jpg";
@@ -17,6 +17,8 @@ import { Section } from "../components/section/section";
 import Section1 from "../nike asset/section1.jpg";
 import Section2 from "../nike asset/section2.jpg";
 import Section3 from "../nike asset/section3.jpg";
+import { NikeMembership } from "../components/section/nikeMembership/NikeMembership";
+import NikeMembershipPic from "../nike asset/nike-just-do-it15.jpg";
 
 
 
@@ -38,10 +40,10 @@ function Home() {
         knee fleece. Drapes, feel and wears like nothing you have experience before.
       </div>
       <div className={Styles.btn}>
-        <Button 
+        <Blkbutton 
           name = "Shop All Fleece"
         />
-        <Button
+        <Blkbutton
         name = "Explore Nike Fleece"
         />
       </div>
@@ -133,6 +135,17 @@ function Home() {
         <Section 
           src={Section3}
           name="Sport Bras"
+        />
+      </section>
+      <h2 className={Styles.title2}>
+        Nike Membership
+      </h2>
+      <section>
+        <NikeMembership 
+          src = {NikeMembershipPic}
+          title = "BECOME A MEMBER"
+          text = "Sign for free. Join the community. Never pay for shipping"
+          alt = "Big NIke Logo"
         />
       </section>
     </div>

@@ -1,0 +1,25 @@
+ .img {
+    position:absolute ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1490px;
+    max-height: 371.01px;
+ }
+
+ .title {
+    position: relative;
+    font-family: Nike Futura;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 48px;
+    top: 4rem;
+    left: 4rem;
+    width: px;
+
+
+ }
+
+ .style {
+
+ }

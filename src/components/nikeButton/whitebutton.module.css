@@ -1,0 +1,21 @@
+
+
+
+.btn {
+    background-color:   rgb(255, 255, 255);
+    border: none;
+    border-radius:  30px;
+    color:  rgb(0, 0, 0);
+    font:  30px;
+    line-height: 30px;
+    font-weight: 200px;
+    font-family:  Arial;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+  }
+
+.btn:hover {
+transition: 0.3ms;
+opacity: 0.4;
+}

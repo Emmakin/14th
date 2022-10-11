@@ -2,10 +2,10 @@
 
 
 .btn {
-        background-color:  black;
+        background-color:  rgb(0, 0, 0);
         border-radius:  30px;
         padding:  0;
-        color:  white;
+        color:  rgb(255, 255, 255);
         font:  30px;
         line-height: 30px;
         font-weight: 200px;

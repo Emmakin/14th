@@ -1,7 +1,7 @@
 import React from 'react';
-import Style from './button.module.css';
+import Style from './blackbutton.module.css';
 
-function Button({name}) {
+function Blkbutton({name}) {
     return (
       <div>
         <button className={Style.btn}>
@@ -12,4 +12,4 @@ function Button({name}) {
   }
 
 
-export default Button;
+export default Blkbutton;
