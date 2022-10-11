@@ -52,7 +52,7 @@
       .smallCard  {
         display: flex;
         flex-direction: row;
-        gap: 1rem;
+        gap: 0.5rem;
         overflow-x: scroll;
         
       }
@@ -71,7 +71,7 @@
       .section {
         display: flex;
         flex-direction: row;
-        gap: 5rem;
+        justify-content: space-between;
       }
 
       
