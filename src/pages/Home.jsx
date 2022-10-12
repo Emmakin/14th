@@ -150,7 +150,7 @@ function Home() {
           alt = "Big Nike Logo"
         />
       </section>
-      <section className={Styles.section}>
+      <div className={Styles.section2}>
         <Section2 
           src = {Sec2_pic1}
           tag = "Member Shop"
@@ -166,7 +166,7 @@ function Home() {
           tag = "Member Shop"
           text = "Shop Member-exclusive style."
         />
-      </section>
+      </div>
     </div>
   );
 }
