@@ -34,6 +34,10 @@
     top: 4rem;
     left: 2rem;
     color: #ffffff;
+}
 
-
- }
+.btn {
+   position: relative;
+   top: 4rem;
+   left: 2rem;
+}
