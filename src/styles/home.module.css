@@ -34,7 +34,7 @@
         line-height: 60px;
         font-weight: 100;
         text-align: left;
-        margin: 12px 0 0 0 ;
+        margin: 5.5rem 0 0 0 ;
   
       }
       
@@ -57,7 +57,7 @@
         
       }
 
-      .smallCard::-webkit-scrollbar-track{
+      .smallCard::-webkit-scrollbar{
         display: hidden;
       }
 
