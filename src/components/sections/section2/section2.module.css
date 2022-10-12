@@ -1,0 +1,27 @@
+.wrapper {
+    margin: 6rem 0 0 0 ;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.pic {
+    max-width: 600px;
+    max-height: 620px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.tag {
+    text-align: left;
+    font-size: 15px;
+    color: #595959;
+}
+
+.text {
+    font-size: 20px;
+}

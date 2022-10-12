@@ -14,11 +14,13 @@ import Small4 from "../nike asset/air-more-uptempo-big-kids-shoes-XXS2f0.png";
 import Small5 from "../nike asset/air-max-95-mens-shoes-4Nzc1w.png";
 import Small6 from "../nike asset/air-jordan-1-mid-shoes-PCCmCV.png";
 import { Section } from "../components/sections/section1/section";
-import Section1 from "../nike asset/section1.jpg";
-import Section2 from "../nike asset/section2.jpg";
-import Section3 from "../nike asset/section3.jpg";
+import Sec1_pic1 from "../nike asset/section1.jpg";
+import Sec1_pic2 from "../nike asset/section2.jpg";
+import Sec1_pic3 from "../nike asset/section3.jpg";
 import { NikeMembership } from "../components/sections/nikeMembership/NikeMembership";
 import NikeMembershipPic from "../nike asset/nike-just-do-it15.jpg";
+import { Section2 } from "../components/sections/section2/section2";
+import Sec2_pic1 from "../nike asset/nike-just-do-it.jpg";
 
 
 
@@ -125,15 +127,15 @@ function Home() {
       </h2>
       <section className={Styles.section}>
         <Section 
-          src={Section1}
+          src={Sec1_pic1}
           name="Pro Baselayers"
         />
         <Section 
-          src={Section2}
+          src={Sec1_pic2}
           name="Leggings"
         />
         <Section 
-          src={Section3}
+          src={Sec1_pic3}
           name="Sport Bras"
         />
       </section>
@@ -146,6 +148,23 @@ function Home() {
           title = "BECOME A MEMBER"
           text = "Sign for free. Join the community. Never pay for shipping"
           alt = "Big Nike Logo"
+        />
+      </section>
+      <section className={Styles.section}>
+        <Section2 
+          src = {Sec2_pic1}
+          tag = "Member Shop"
+          text = "Shop Member-exclusive style."
+        />
+        <Section2 
+          src = {Sec2_pic1}
+          tag = "Member Shop"
+          text = "Shop Member-exclusive style."
+        />
+        <Section2 
+          src = {Sec2_pic1}
+          tag = "Member Shop"
+          text = "Shop Member-exclusive style."
         />
       </section>
     </div>
