@@ -16,7 +16,7 @@
 
  .title {
     position: relative;
-    top: 3rem;
+    top: 2rem;
     left: 2rem;
     font-family: Nike Futura;
     text-transform: uppercase;
@@ -31,13 +31,13 @@
 
  .text {
     position: relative;
-    top: 4rem;
+    top: 2rem;
     left: 2rem;
     color: #ffffff;
 }
 
 .btn {
    position: relative;
-   top: 4rem;
+   top: 2.5rem;
    left: 2rem;
 }
