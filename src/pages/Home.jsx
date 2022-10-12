@@ -145,7 +145,7 @@ function Home() {
           src = {NikeMembershipPic}
           title = "BECOME A MEMBER"
           text = "Sign for free. Join the community. Never pay for shipping"
-          alt = "Big NIke Logo"
+          alt = "Big Nike Logo"
         />
       </section>
     </div>

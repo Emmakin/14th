@@ -15,11 +15,15 @@
     line-height: 48px;
     top: 4rem;
     left: 4rem;
-    width: px;
+    width: 100px;
+    color: #ffffff;
 
 
  }
 
- .style {
+ .text {
+    position: relative;
+    top: 4rem;
+    color: #ffffff;
 
  }
