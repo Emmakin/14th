@@ -21,6 +21,7 @@ import { NikeMembership } from "../components/sections/nikeMembership/NikeMember
 import NikeMembershipPic from "../nike asset/nike-just-do-it15.jpg";
 import { Section2 } from "../components/sections/section2/section2";
 import Sec2_pic1 from "../nike asset/nike-just-do-it.jpg";
+import { Section3 } from "../components/sections/section3/section3";
 
 
 
@@ -168,6 +169,8 @@ function Home() {
         />
       </section>
       <section className={Styles.footer1}>
+        <Section3
+        />
       </section>
     </div>
   );
