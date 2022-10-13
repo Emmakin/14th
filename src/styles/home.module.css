@@ -77,10 +77,13 @@
       .section2 {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        /* justify-content: space-around; */
+        align-items: left;
       }
       .footer1  {
+        margin-top: 6rem 0 0 0;
         display: flex;
+
       }
 
 

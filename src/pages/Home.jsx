@@ -150,7 +150,7 @@ function Home() {
           alt = "Big Nike Logo"
         />
       </section>
-      <div className={Styles.section2}>
+      <section className={Styles.section2}>
         <Section2 
           src = {Sec2_pic1}
           tag = "Member Shop"
@@ -166,19 +166,9 @@ function Home() {
           tag = "Member Shop"
           text = "Shop Member-exclusive style."
         />
-      </div>
-      <div className={Styles.footer1}>
-        <ul>
-          <li>I love my React</li>
-          <li>I love my React</li>
-          <li>I love my React</li>
-          <li>I love my React</li>
-          <li>I love my React</li>
-          <li>I love my React</li>
-          <li>I love my React</li>
-          <li>I love my React</li>
-        </ul>
-      </div>
+      </section>
+      <section className={Styles.footer1}>
+      </section>
     </div>
   );
 }
