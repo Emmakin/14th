@@ -79,6 +79,9 @@
         flex-direction: row;
         justify-content: space-between;
       }
+      .footer1  {
+        display: flex;
+      }
 
 
       

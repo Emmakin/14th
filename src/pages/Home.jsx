@@ -167,6 +167,12 @@ function Home() {
           text = "Shop Member-exclusive style."
         />
       </div>
+      <div className={Styles.footer1}>
+        <ul>
+          <li>I love my React</li>
+          <li>I love my React</li>
+        </ul>
+      </div>
     </div>
   );
 }
