@@ -171,6 +171,12 @@ function Home() {
         <ul>
           <li>I love my React</li>
           <li>I love my React</li>
+          <li>I love my React</li>
+          <li>I love my React</li>
+          <li>I love my React</li>
+          <li>I love my React</li>
+          <li>I love my React</li>
+          <li>I love my React</li>
         </ul>
       </div>
     </div>
