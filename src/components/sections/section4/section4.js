@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const section4 = () => {
+export const Section4 = () => {
   return (
-    <div>section4</div>
+    <div>
+        
+    </div>
   )
 }
