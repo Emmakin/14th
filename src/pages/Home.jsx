@@ -172,6 +172,9 @@ function Home() {
         <Section3
         />
       </section>
+      <section>
+        
+      </section>
     </div>
   );
 }
