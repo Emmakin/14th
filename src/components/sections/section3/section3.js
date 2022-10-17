@@ -24,11 +24,20 @@ export const Section3 = () => {
       </div>
       <div>
         <ul>
-          <li>Featured</li>
-          <li><a>AirForce 1</a></li>
-          <li><a>Jordan 1</a></li>
-          <li><a>Air Max 2090</a></li>
-         <li><a>Air Max 201</a></li>
+          <li>Clothing</li>
+          <li><a>All Clothing</a></li>
+          <li><a>Top & Tshirts</a></li>
+          <li><a>Shorts</a></li>
+         <li><a>Hoodies and pull over</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Kid's</li>
+          <li><a>Infant and Toodlers Shoes</a></li>
+          <li><a>Kid's Shoes</a></li>
+          <li><a>Kid's Basketball Shoes</a></li>
+         <li><a>Kid's Running Shoes</a></li>
         </ul>
       </div>
       
