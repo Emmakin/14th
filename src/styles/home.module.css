@@ -84,6 +84,7 @@
       .footer1  {
         margin-top: 6rem 0 0 0;
         display: flex;
+        flex: 1;
 
       }
 
