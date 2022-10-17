@@ -22,7 +22,7 @@ import NikeMembershipPic from "../nike asset/nike-just-do-it15.jpg";
 import { Section2 } from "../components/sections/section2/section2";
 import Sec2_pic1 from "../nike asset/nike-just-do-it.jpg";
 import { Section3 } from "../components/sections/section3/section3";
-import {Section4} from "../components/sections/section4/section4"
+
 
 
 
@@ -173,9 +173,6 @@ function Home() {
         <Section3
         />
       </section>
-      <footer className={Styles.footer2}>
-        <Section4 />
-      </footer>
     </div>
   );
 }
