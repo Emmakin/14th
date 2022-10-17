@@ -7,4 +7,20 @@
 
 ul {
     list-style: none;
+    font: 12px;
+}
+
+li {
+    padding: 0.5rem;
+    color: rgb(137, 137, 137);
+}
+
+li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.head {
+    color: black;
+    padding-bottom: 1rem;
 }

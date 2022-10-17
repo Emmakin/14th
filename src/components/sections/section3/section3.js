@@ -6,7 +6,7 @@ export const Section3 = () => {
     <div className={Styles.wrapper}>
       <div>
         <ul>
-          <li>Featured</li>
+          <li className={Styles.head}>Featured</li>
           <li><a>AirForce 1</a></li>
           <li><a>Jordan 1</a></li>
           <li><a>Air Max 2090</a></li>
@@ -15,7 +15,7 @@ export const Section3 = () => {
       </div>
       <div>
         <ul>
-          <li>Shoes</li>
+          <li className={Styles.head}>Shoes</li>
           <li><a>All Shoes</a></li>
           <li><a>Jordan Shoes</a></li>
           <li><a>Running Shoes</a></li>
@@ -24,7 +24,7 @@ export const Section3 = () => {
       </div>
       <div>
         <ul>
-          <li>Clothing</li>
+          <li className={Styles.head}>Clothing</li>
           <li><a>All Clothing</a></li>
           <li><a>Top & Tshirts</a></li>
           <li><a>Shorts</a></li>
@@ -33,7 +33,7 @@ export const Section3 = () => {
       </div>
       <div>
         <ul>
-          <li>Kid's</li>
+          <li className={Styles.head}>Kid's</li>
           <li><a>Infant and Toodlers Shoes</a></li>
           <li><a>Kid's Shoes</a></li>
           <li><a>Kid's Basketball Shoes</a></li>
