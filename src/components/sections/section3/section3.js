@@ -1,4 +1,5 @@
 import React from 'react'
+import Styles from './section3.module.css'
 
 export const Section3 = () => {
   return (
