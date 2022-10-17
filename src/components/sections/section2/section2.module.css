@@ -3,8 +3,12 @@
     flex: 33.33%;
 }
 
-.pic {
+.pic_div {
     position: absolute;  
+}
+
+.pic {
+    width: 100%;
 }
 
 .content{
