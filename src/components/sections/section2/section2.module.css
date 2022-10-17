@@ -1,15 +1,10 @@
 .wrapper {
     margin-top: 6rem;
-    display: flex;
-    flex-direction: column;
+    flex: 33.33%;
 }
 
 .pic {
-    position: absolute;
-    max-width: 600px;
-    max-height: 620px;
-
-   
+    position: absolute;  
 }
 
 .content{

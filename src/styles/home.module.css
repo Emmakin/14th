@@ -76,14 +76,19 @@
 
       .section2 {
         display: flex;
-        flex-direction: row;
-        /* justify-content: space-around; */
-        align-items: left;
+        justify-content: space-between;
+        
       }
+
       .footer1  {
         margin-top: 6rem 0 0 0;
         display: flex;
 
+      }
+
+      .footer2 {
+        background-color: black;
+        width: 1000px;
       }
 
 

@@ -173,10 +173,9 @@ function Home() {
         <Section3
         />
       </section>
+      <footer className={Styles.footer2}>
         <Section4 />
-      <section>
-
-      </section>
+      </footer>
     </div>
   );
 }
