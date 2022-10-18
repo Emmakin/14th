@@ -4,8 +4,10 @@
     height: 25rem;
     display: flex;
     align-items: center;
+    color: #fff;
 }
 
 .ul_caps {
     text-transform: uppercase;
+    
 }

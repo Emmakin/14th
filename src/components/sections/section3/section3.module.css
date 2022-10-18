@@ -11,8 +11,9 @@ ul {
 }
 
 a {
-    padding: 0.5rem;
+    padding-bottom: 1em;
     color: rgb(137, 137, 137);
+    text-decoration: none;
 }
 
 a:hover {
