@@ -10,12 +10,12 @@ ul {
     font: 12px;
 }
 
-li {
+a {
     padding: 0.5rem;
     color: rgb(137, 137, 137);
 }
 
-li:hover {
+a:hover {
     color: black;
     cursor: pointer;
 }
