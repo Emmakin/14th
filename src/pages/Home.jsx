@@ -173,6 +173,9 @@ function Home() {
         <Section3
         />
       </section>
+      <footer>
+        
+      </footer>
     </div>
   );
 }
