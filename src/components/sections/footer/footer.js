@@ -14,6 +14,15 @@ export const Footer = () => {
             <li><a>nike journal</a></li>
             <li><a>send up feedback</a></li>
         </ul>
+        <ul className={Styles.div}>
+            <li className={Styles.ul_caps}><a>GET HELP</a></li>
+            <li><a>Order Status</a></li>
+            <li><a>Shipping and Delivery</a></li>
+            <li><a>Returns</a></li>
+            <li><a>Payment Options</a></li>
+            <li><a>Oil Card Balance</a></li>
+            <li><a>Contact Us</a></li>
+        </ul>
     </div>
   )
 }
