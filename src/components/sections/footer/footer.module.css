@@ -8,6 +8,7 @@
 }
 
 .ul_caps {
-    font: 300;
+    font: inherit;
     text-transform: uppercase;
+    line-height: 1.5rem;
     }
