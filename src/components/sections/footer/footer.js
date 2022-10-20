@@ -27,9 +27,9 @@ export const Footer = () => {
             <li className={Styles.ul_caps}><a>ABOUT NIKE</a></li>
             <li><a>News </a></li>
             <li><a>Career</a></li>
-            <li><a></a></li>
-            <li><a></a></li>
-            <li><a></a></li>
+            <li><a>Investors</a></li>
+            <li><a>Purpose</a></li>
+            <li><a>Sustainability</a></li>
             <li><a></a></li>
         </ul>
     </div>
