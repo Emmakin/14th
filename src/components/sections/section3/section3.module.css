@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.link:hover {
     color: black;
     cursor: pointer;
 }

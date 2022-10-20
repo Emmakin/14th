@@ -30,7 +30,6 @@ export const Footer = () => {
             <li><a>Investors</a></li>
             <li><a>Purpose</a></li>
             <li><a>Sustainability</a></li>
-            <li><a></a></li>
         </ul>
     </div>
   )
