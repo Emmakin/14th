@@ -3,7 +3,7 @@
     width: 100%;
     height: 25rem;
     display: flex;
-    align-items: center;
+    padding: 1.5rem;
     color: #fff;
     gap: 2rem;
 }
@@ -14,3 +14,7 @@
     font-family: "Helvetica Neue";
     font-weight: 700;
     }
+
+.div {
+    line-height: 1.5rem;
+}
