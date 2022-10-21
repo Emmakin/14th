@@ -3,12 +3,14 @@
     width: 100%;
     height: 25rem;
     display: flex;
+    flex-direction: column;
     padding: 1.5rem;
     color: #fff;
     gap: 2rem;
 }
 .footerTop {
     display: flex;
+    flex-direction: row;
     padding: 1.5rem;
     color: #fff;
     gap: 2rem;
@@ -33,7 +35,7 @@ a:hover {
 
 .buttfooter {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .location {
