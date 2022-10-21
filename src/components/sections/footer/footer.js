@@ -33,8 +33,10 @@ export const Footer = () => {
             <li><a>Sustainability</a></li>
         </ul>
       </div>
-      <div>
-        <div></div>
+      <div className={Styles.buttFooter}>
+        <div>
+
+        </div>
         <div></div>
       </div>
         
