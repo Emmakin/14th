@@ -35,7 +35,7 @@ export const Footer = () => {
       </div>
       <div className={Styles.buttFooter}>
         <div>
-
+          United States   ©2022 Nike, Inc. All Rights Reserved
         </div>
         <div></div>
       </div>
