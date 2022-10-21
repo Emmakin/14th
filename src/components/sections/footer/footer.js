@@ -3,8 +3,8 @@ import Styles from './footer.module.css'
 
 export const Footer = () => {
   return (
-    <div>
-      <div className={Styles.footer}>
+    <div className={Styles.footer}>
+      <div className={Styles.footerTop}>
         <ul className={Styles.ul_caps}>
             <li><a>gifts card</a></li>
             <li><a>promotions</a></li>
@@ -35,10 +35,10 @@ export const Footer = () => {
       </div>
       <div className={Styles.buttFooter}>
         <div>
-        <ul className={Styles.location}>
-        <li><a>United States </a></li>
-        <li><a>©2022 Nike, Inc. All Rights Reserved</a></li>
-        </ul>
+          <ul className={Styles.location}>
+            <li><a>United States </a></li>
+            <li><a>©2022 Nike, Inc. All Rights Reserved</a></li>
+          </ul>
         </div>
         <div>
           <ul className={Styles.info}>

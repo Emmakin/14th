@@ -7,6 +7,12 @@
     color: #fff;
     gap: 2rem;
 }
+.footerTop {
+    display: flex;
+    padding: 1.5rem;
+    color: #fff;
+    gap: 2rem;
+}
 
 .ul_caps {
     color: #fff;
