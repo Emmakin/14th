@@ -29,3 +29,11 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
+
+.location {
+    column-count: 2;
+}
+
+.info {
+    column-count: 5;
+}
