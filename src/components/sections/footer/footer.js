@@ -40,7 +40,7 @@ export const Footer = () => {
             <li><a>©2022 Nike, Inc. All Rights Reserved</a></li>
           </ul>
         </div>
-        <div>
+        <div >
           <ul className={Styles.info}>
             <li><a> Guides</a></li>
             <li><a>Terms of Sales</a></li>
