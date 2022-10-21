@@ -3,7 +3,8 @@ import Styles from './footer.module.css'
 
 export const Footer = () => {
   return (
-    <div className={Styles.footer}>
+    <div>
+      <div className={Styles.footer}>
         <ul className={Styles.ul_caps}>
             <li><a>gifts card</a></li>
             <li><a>promotions</a></li>
@@ -31,6 +32,12 @@ export const Footer = () => {
             <li><a>Purpose</a></li>
             <li><a>Sustainability</a></li>
         </ul>
+      </div>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+        
     </div>
   )
 }
