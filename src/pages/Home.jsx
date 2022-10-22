@@ -65,7 +65,7 @@ function Home() {
         <Imagediv 
           src={Pic2}
           alt = "Nike closeup picture"
-          text = "The Right Gear to Start Running"
+          text = "The Right Geacd 14thr to Start Running"
           button = "Shop"
         />
       </div>
