@@ -36,6 +36,7 @@ a:hover {
 
 .buttfooter {
     display: flex;
+    flex-direction: row;
 
 }
 
