@@ -56,7 +56,6 @@ function Home() {
         />
       </div>
       <h2 className={Styles.title2}>
-      <Link href="#signIn" title="Sign In" />
         For Your Workout
       </h2>
       <div className={Styles.images}>
