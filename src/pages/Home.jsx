@@ -30,6 +30,9 @@ import { Footer } from "../components/sections/footer/footer";
 
 
 
+
+
+
 // planning to make a neat code and create 1tcss module for all the code
  // create new folder for each components that will create each files
  
@@ -53,6 +56,7 @@ function Home() {
         />
       </div>
       <h2 className={Styles.title2}>
+      <Link href="#signIn" title="Sign In" />
         For Your Workout
       </h2>
       <div className={Styles.images}>
