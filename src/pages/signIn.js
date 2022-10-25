@@ -2,8 +2,8 @@ import React from 'react'
 
 export const SignIn = () => {
   return (
-    <div>
+    <form>
       <label></label>
-    </div>
+    </form>
   )
 }
