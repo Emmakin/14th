@@ -1,0 +1,22 @@
+.signIn {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    gap: 2rem;
+}
+
+label {
+    word-break: break-all;
+    color: rgb(156, 156, 156);
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 100;
+
+}
+
+input {
+    border-color: rgba(237, 16, 0, 0.823);
+    height: 56px;
+    border-radius: 8px;
+    cursor: text;
+}
