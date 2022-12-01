@@ -14,9 +14,18 @@ label {
 
 }
 
-input {
-    border-color: rgba(237, 16, 0, 0.823);
+input{
+    
     height: 56px;
     border-radius: 8px;
     cursor: text;
+}
+
+input::before{
+    color: chocolate;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(237, 16, 0, 0.823);
+    padding: 0.5rem;
 }
