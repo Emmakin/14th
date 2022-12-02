@@ -1,17 +1,17 @@
 import React from 'react';
 import Style from './itemCard.module.css'
 
-const itemCard = () => {
+const ItemCard = () => {
     return (
         <div>
-            <img src={props.img} />
+            <img className={Style.img} src={props.img} />
             <div className={Style.name}>{props.name}</div>
-            <div>{props.price}</div>
-            <div>{props.category}</div>
-            <div>{props.tag}</div>
+            <div className={Style.price}>{props.price}</div>
+            <div className={Style.category}>{props.category}</div>
+            <div className={Style.tag}>{props.tag}</div>
             <button>Add to Cart</button>
         </div>
     );
 };
 
-export default itemCard;
+export default ItemCard;

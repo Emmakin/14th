@@ -5,18 +5,30 @@
     font: inherit;
 }
 
-.name {
+.img {
+    max-width: 547px;
+    max-height: 547px;
+}
 
+.name {
+    font-size: 14px;
+    color: brown;
 }
 
 .price {
-
+    color: grey;
 }
 
-.categories {
-
+.category {
+    color: grey;
+    font-size: 14px;
 }
 
 .tag {
+    color: grey;
+    font-size: 14px;
+}
+
+button {
     
 }
