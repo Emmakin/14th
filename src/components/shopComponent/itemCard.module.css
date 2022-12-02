@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font: inherit;
+}
+
+.name {
+
+}
+
+.price {
+
+}
+
+.categories {
+
+}
+
+.tag {
+    
+}
