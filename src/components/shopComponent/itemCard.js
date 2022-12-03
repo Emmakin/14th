@@ -1,9 +1,9 @@
 import React from 'react';
 import Style from './itemCard.module.css'
 
-const ItemCard = () => {
+const ItemCard = (props) => {
     return (
-        <div>
+        <div className={Style.wrapper}>
             <img className={Style.img} src={props.img} />
             <div className={Style.name}>{props.name}</div>
             <div className={Style.price}>{props.price}</div>

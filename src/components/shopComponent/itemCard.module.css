@@ -1,6 +1,7 @@
 .wrapper{
     display: flex;
     flex-direction: column;
+    flex:  2;
     gap: 0.5rem;
     font: inherit;
 }
