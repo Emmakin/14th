@@ -5,7 +5,7 @@ import data from '../data';
 
 const Shop = () => {
   return (
-    <div>
+    <div className={Style.wrapper}>
       <h1>All Items</h1>
       <div className={Style.card}>
         {data.product.map((item,index) => {
