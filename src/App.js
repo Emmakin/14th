@@ -6,10 +6,10 @@ import NotFound from "./pages/notFound";
 import Shop from "./pages/Shop";
 
 
-
-
+var signIn =  true;
 
 function App() {
+  
   return (
     <BrowserRouter>
       <Routes>

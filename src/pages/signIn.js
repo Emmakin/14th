@@ -1,5 +1,4 @@
 import React from 'react'
-import Blkbutton from '../components/nikeButton/blackbutton'
 import Styles from '../styles/signin.module.css'
 
 
@@ -11,9 +10,7 @@ import Styles from '../styles/signin.module.css'
       <input type="mail" placeholder="Email" name="mail"></input>
       <label>By continuing, I agree to Nike's <a href='https://agreementservice.svs.nike.com/rest'> Privacy Policy </a>
       and Terms of Use.</label>
-      <Blkbutton 
-        name= "Continue"
-      />
+      <input className={Styles.inputBtn} type="Submit" />
 
     </form>
   )
