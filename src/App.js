@@ -4,6 +4,7 @@ import SignIn from "./pages/signIn";
 import Navbar from "./components/Navbar"
 import NotFound from "./pages/notFound";
 import Shop from "./pages/Shop";
+import Cart from "./pages/cart"
 
 
 var signIn =  true;
@@ -19,6 +20,7 @@ function App() {
           <Route path="signin" element={<SignIn />} />
           <Route path="notfound" element={<NotFound />} />
           <Route path="shop" element={<Shop />} />
+          <Route path="cart" element={<Cart />} />
         </Route>
       </Routes>
     </BrowserRouter>
